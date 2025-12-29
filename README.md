@@ -2,7 +2,7 @@
 
 **Solar sails stop in shadow. SLaSS doesn't.**
 
-A 100m² lattice sail with pixelated steering that works continuously—light or dark. Cuts deep-space fuel by 90%.
+A 100m² lattice sail with pixelated steering that works continuousl, light or dark. Cuts deep-space fuel by 90%.
 
 [
 
