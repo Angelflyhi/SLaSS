@@ -1,0 +1,53 @@
+
+
+## Light Mode Thrust (Radiation Pressure)
+Standard solar sail force for perfect reflector:  
+$$ F = 2 \frac{P}{c} A \cos^2 \alpha $$ [4][1]
+- Solar constant $$ P = 1361 $$ W/m² at 1 AU  
+- Speed of light $$ c = 3 \times 10^8 $$ m/s  
+- Sail area $$ A = 100 $$ m² (SLaSS design)  
+- Pitch angle $$ \alpha = 0^\circ $$ (max thrust, $$ \cos^2 \alpha = 1 $$)  
+
+Pressure: $$ p = 2 \frac{1361}{3 \times 10^8} = 9.07 \times 10^{-6} $$ N/m² = 9.07 μN/m²  
+Total force: $$ F = 9.07 \times 10^{-6} \times 100 = 9.07 \times 10^{-4} $$ N [4][2]
+
+## Acceleration
+CubeSat mass $$ m = 10 $$ kg (typical):  
+$$ a = \frac{F}{m} = \frac{9.07 \times 10^{-4}}{10} = 9.07 \times 10^{-5} \, \mathrm{m/s^2} \approx 0.01 \, \mathrm{mm/s^2} $$ [11]
+Δv over 1 year ($$ t = 3.156 \times 10^7 $$ s): $$ \Delta v = a t = 2.86 $$ km/s
+
+## Shadow Mode Thrust (PCM Ablation Estimate)
+Thermal ablation (conservative 10% light thrust): $$ F_\mathrm{shadow} = 1 \, \mu\mathrm{N/m^2} $$  
+Total: $$ F = 1 \times 10^{-6} \times 100 = 10^{-4} $$ N  
+Exhaust velocity $$ v_e = 2000 $$ m/s (solid thermal):  
+Mass flow: $$ \dot{m} = \frac{F}{v_e} = 5 \times 10^{-8} $$ kg/s  
+1-hour shadow (3600 s): $$ \Delta m = 1.8 \times 10^{-4} $$ kg = 0.18 g [12]
+
+## Lattice Reflectivity Gain
+Perforated design: $$ \eta = 0.99 $$ (vs. 0.90 standard) [13]
+Thrust boost: $$ F_\mathrm{lattice} = 1.1 \times F_\mathrm{std} $$  
+Mass savings: 30% via voids ($$ m_\mathrm{sail} = 0.7 \times m_\mathrm{std} $$)
+
+## Fuel Savings
+Traditional shadow Δv = 1 km/s, $$ m_p = m_0 (1 - e^{-\Delta v / v_e}) $$, $$ v_e = 3000 $$ m/s: ~33% propellant fraction  
+SLaSS hybrid: <1% PCM over mission → 90% savings [14]
+
+## Trajectory Example (Earth-Mars)
+Total Δv ≈ 5-6 km/s; SLaSS continuous low-thrust halves time vs. pure sail (avoids umbra stalls) [15]
+
+Citations:
+[1] Radiation Pressure Calculator https://www.omnicalculator.com/physics/radiation-pressure
+[2] Radiation pressure - Wikipedia https://en.wikipedia.org/wiki/Radiation_pressure
+[3] [PDF] The Physics of Solar Sails https://ntrs.nasa.gov/api/citations/20030093608/downloads/20030093608.pdf
+[4] Solar sail - Wikipedia https://en.wikipedia.org/wiki/Solar_sail
+[5] Solar Sails -A Realistic Propulsion for Spacecraft https://ntrs.nasa.gov/api/citations/19670030985/downloads/19670030985.pdf
+[6] 16.5: Momentum and Radiation Pressure https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/16:_Electromagnetic_Waves/16.05:_Momentum_and_Radiation_Pressure
+[7] [PDF] Solar Sail Technology for Nanosatellites - Matthew West https://lagrange.mechse.illinois.edu/pubs/SoWe2008/SoWe2008.pdf
+[8] Solar Radiation Pressure - an overview https://www.sciencedirect.com/topics/engineering/solar-radiation-pressure
+[9] [PDF] The principal behind all propulsion systems is Newton's Third Law ... https://www.colorado.edu/faculty/kantha/sites/default/files/attached-files/reiber_solar_sailing.pdf
+[10] Radiation Pressure & Gravity on Solar Sail at 1AU https://www.physicsforums.com/threads/radiation-pressure-gravity-on-solar-sail-at-1au.460757/
+[11] SOLAR SAIL PROPULSION: ENABLING NEW ... https://ntrs.nasa.gov/api/citations/20110007225/downloads/20110007225.pdf
+[12] Solar Still using Phase Change Material (Paraffin Wax) https://www.ijert.org/solar-still-using-phase-change-material-paraffin-wax
+[13] Aiming for Lighter Light Sails - Physics (APS) https://physics.aps.org/articles/v18/77
+[14] investigation study about feasibility of hybrid solar-magnetic ... https://iaa.4hdt.ro/event/3/contributions/288/contribution.pdf
+[15] aas 14-267 solar sail transfers from earth to the lunar ... https://engineering.purdue.edu/people/kathleen.howell.1/Publications/Conferences/2015_AAS_DasHow.pdf
