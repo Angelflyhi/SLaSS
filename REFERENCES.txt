@@ -1,0 +1,117 @@
+Shadow Lattice Solar Sail (SLaSS) - Complete Bibliography
+=========================================================
+
+## 🧬 CORE SOLAR SAIL TECHNOLOGY (Foundational)
+====================
+[1] Wikipedia: Solar Sail - https://en.wikipedia.org/wiki/Solar_sail
+   IKAROS (2010), LightSail 2 (2019), ACS3 (2024) mission details
+
+[5] Physics APS: "Aiming for Lighter Light Sails" (2025) - https://physics.aps.org/articles/v18/77
+   Perforated lattice films achieve 99% reflectivity, 30% mass reduction
+
+[16] NASA: "Advanced Composite Solar Sail System (ACS3)" (2024) - https://www.nasa.gov/general/what-is-acs3/
+   80m² deployable booms, flight heritage
+
+[19] Negri et al: "Attitude and Orbit Control of a Solar Sail Through Reflectivity Control Devices" (2019)
+   https://politesi.polimi.it/retrieve/a81cb05d-189b-616b-e053-1605fe0a889a/2019_04_Negri.pdf
+   Pixelated LCD/electrochromic control laws
+
+[73] Biddy: "LightSail-1 Solar Sail Design and Qualification" (2012) - https://esmats.eu/amspapers/pastpapers/pdfs/2012/biddy.pdf
+   32m² Mylar sail deployment validation
+
+## 🔋 PIXELATED & ACTIVE CONTROL SYSTEMS
+====================
+[22] "Active Solar Sail Designs for Chip-Scale Spacecraft" - https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=3071&context=smallsat
+   Megapixel-scale reflectivity modulation
+
+[6] "Feedback control law of solar sail with variable surface reflectance" (2020) - https://www.sciencedirect.com/science/article/abs/pii/S1270963820308269
+   RCD (Reflectivity Control Device) algorithms
+
+[24] "Solar Sail Implementation Using Smart Matter" - https://science.gsfc.nasa.gov/attic/ants/documents/iac2004-solar-sail.pdf
+   Embedded actuators in sail membrane
+
+## 🌑 SHADOW PROPULSION & HYBRIDS
+====================
+[27] "Investigation study about feasibility of hybrid solar-magnetic sail" - https://iaa.4hdt.ro/event/3/contributions/288/contribution.pdf
+   Combined radiation + Lorentz force
+
+[31] Wikipedia: Magnetic Sail (Magsail) - https://en.wikipedia.org/wiki/Magnetic_sail
+   Superconducting loops, solar wind plasma interaction
+
+[21] "Solar Still using Phase Change Material (Paraffin Wax)" (2019) - https://www.ijert.org/solar-still-using-phase-change-material-paraffin-wax
+   PCM thermal energy storage → ablation thrust
+
+[12] Centauri Dreams: "Wind Rider: A High Performance Magsail" (2021) - https://www.centauri-dreams.org/2021/11/19/wind-rider-a-high-performance-magsail/
+   Sun shield + magsail hybrid architecture
+
+[20] Loeb: "Could 1I/2017 U1 'Oumuamua be a Solar Sail Hybrid?" - https://lweb.cfa.harvard.edu/~loeb/TL.pdf
+   Thermal desorption propulsion concepts
+
+## ⚛️ RADIATION PRESSURE PHYSICS
+====================
+[53] Omni Calculator: Radiation Pressure - https://www.omnicalculator.com/physics/radiation-pressure
+   F = 2(P/c)A cos²α validation tool
+
+[55] Wikipedia: Radiation Pressure - https://en.wikipedia.org/wiki/Radiation_pressure
+   P = 1361 W/m² solar constant @ 1 AU
+
+[48] NASA: "The Physics of Solar Sails" - https://ntrs.nasa.gov/api/citations/20030093608/downloads/20030093608.pdf
+   Complete thrust derivations
+
+[58] ScienceDirect: Solar Radiation Pressure Overview - https://www.sciencedirect.com/topics/engineering/solar-radiation-pressure
+   9.07 μN/m² standard at Earth orbit
+
+## 🛰️ MISSION DESIGN & TRAJECTORIES
+====================
+[4] Purdue: "Solar Sail Transfers from Earth to Lunar Gateway" (2015) - https://engineering.purdue.edu/people/kathleen.howell.1/Publications/Conferences/2015_AAS_DasHow.pdf
+   Umbra traversal optimization
+
+[25] NASA: "Solar Sail Propulsion: Enabling New Missions" - https://ntrs.nasa.gov/api/citations/20110007225/downloads/20110007225.pdf
+   Earth-Mars Δv = 5-6 km/s requirements
+
+[29] AIAA: "Minimum-Time Solar Sail Geostationary Orbit Insertion" (2021) - https://arc.aiaa.org/doi/10.2514/1.A34950
+   Continuous thrust trajectory shaping
+
+[96] arXiv: "Recent advances in space sailing missions and technology" (2024) - https://arxiv.org/html/2411.12492v1
+   Sedna mission with thermal desorption sails
+
+## 🏭 MATERIALS & STRUCTURES
+====================
+[23] NASA: "Modeling of Triangular Lattice Space Structures" - https://ntrs.nasa.gov/api/citations/20050175877/downloads/20050175877.pdf
+   Deployable lattice mechanics
+
+[72] Science.gov: Solar Sail Materials Research - https://www.science.gov/topicpages/s/solar+sail+material.html
+   Kapton, Mylar, aluminized coatings
+
+[97] NASA: "Heliogyro Solar Sail Research" (2013) - https://ntrs.nasa.gov/api/citations/20130014933/downloads/20130014933.pdf
+   Spinning deployment dynamics
+
+[98] NASA: "Status of Solar Sail Technology Within NASA" (2010) - https://ntrs.nasa.gov/api/citations/20100039163/downloads/20100039163.pdf
+   20m ground demonstrators (ATK, L'Garde)
+
+
+## 📈 KEY EQUATIONS REFERENCE
+====================
+Light Thrust: F = 2(P/c) A η cos²α
+- P = 1361 W/m² (1 AU)
+- c = 3×10⁸ m/s
+- η = 0.99 (SLaSS lattice)
+- α = sail pitch angle
+
+Shadow Ablation: ṁ = F/v_e
+- v_e = 2000 m/s (thermal propellant)
+- Δm_1hr = 0.18 g (100m² sail)
+
+Orbit: Δv = ∫(F/m) dt
+- a_light = 90.7 μm/s² (10kg CubeSat)
+- Δv_1year = 2.86 km/s continuous
+
+=========================================================
+
+Citations:
+[1] Recent advances in space sailing missions and technology https://arxiv.org/html/2411.12492v1
+[2] [PDF] Heliogyro Solar Sail Research at NASA https://ntrs.nasa.gov/api/citations/20130014933/downloads/20130014933.pdf
+[3] STATUS OF SOLAR SAIL TECHNOLOGY WITHIN NASA https://ntrs.nasa.gov/api/citations/20100039163/downloads/20100039163.pdf
+[4] Design and application of solar sailing: A review on key ... https://www.sciencedirect.com/science/article/pii/S1000936122002564
+[5] Space sails for achieving major space exploration goals https://www.sciencedirect.com/science/article/pii/S0376042124000733
+[6] Design and application of solar sailing: A review on key ... https://ira.lib.polyu.edu.hk/bitstream/10397/102365/1/1-s2.0-S1000936122002564-main.pdf
